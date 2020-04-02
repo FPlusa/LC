@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1585061350 source:c:\users\filip\desktop\programowanie\projekt\cpp projekt\main.cpp
+	<iostream>
+	"czytaj.h"
+
+1585061409 source:c:\users\filip\desktop\programowanie\projekt\cpp projekt\czytaj.cpp
+	<iostream>
+	<fstream>
+	"Czytaj.h"
+	<cstdlib>
+
+1585061288 c:\users\filip\desktop\programowanie\projekt\cpp projekt\czytaj.h
+	<iostream>
+
+1585436580 source:c:\users\filip\desktop\programowanie\projekt\cpp projekt2\cpp projekt\main.cpp
+	<iostream>
+	"czytaj.h"
+	<stdio.h>
+	<cstdlib>
+	<conio.h>
+
+1585061288 c:\users\filip\desktop\programowanie\projekt\cpp projekt2\cpp projekt\czytaj.h
+	<iostream>
+
+1585097356 source:c:\users\filip\desktop\programowanie\projekt\cpp projekt2\cpp projekt\czytaj.cpp
+	<iostream>
+	<fstream>
+	"Czytaj.h"
+	<cstdlib>
+
