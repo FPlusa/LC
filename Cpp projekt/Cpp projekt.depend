@@ -28,3 +28,19 @@
 	"Czytaj.h"
 	<cstdlib>
 
+1585806268 source:c:\projekt\cpp projekt\main.cpp
+	<iostream>
+	"czytaj.h"
+	<stdio.h>
+	<cstdlib>
+	<conio.h>
+
+1585806590 c:\projekt\cpp projekt\czytaj.h
+	<iostream>
+
+1585806223 source:c:\projekt\cpp projekt\czytaj.cpp
+	<iostream>
+	<fstream>
+	"Czytaj.h"
+	<cstdlib>
+

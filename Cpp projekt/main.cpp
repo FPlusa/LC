@@ -18,7 +18,9 @@ for(;;)
     cout << "MENU GLOWNE" << endl;
     cout << "-----------------" << endl;
     cout << "1. Odczyt" << endl;
-    cout << "2. Zamknij program" << endl;
+    cout << "2. Zastap wszystko(1wyraz)" << endl;
+    cout << "3. Dodaj na koncu (1wyraz)" << endl;
+    cout << "4. Zamknij program" << endl;
     cout << "-----------------" << endl;
     cout << "Wybierz: ";
 
@@ -30,11 +32,25 @@ for(;;)
 {
     case '1':
            {
-            Czytaj cz1;
-            cz1.wczytaj();
+                Czytaj cz1;
+                cz1.wczytaj();
            }
     break;
+
     case '2':
+            {
+                Czytaj cz2;
+                cz2.z_wsz();
+            }
+
+    break;
+    case '3':
+           {
+                Czytaj cz3;
+                cz3.dodaj();
+           }
+    break;
+    case '4':
             exit(0);
     break;
 

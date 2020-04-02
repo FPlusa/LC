@@ -28,6 +28,48 @@ void Czytaj::wczytaj()
 plik.close();
     }
 
+void Czytaj::z_wsz()
+{
+
+    cout<<"Podaj tresc: ";
+    cin>> tresc1;
+
+   fstream plik;
+        plik.open("tekst.txt", ios::out);
+
+        if(plik.good()==false)
+        {
+            cout<<"Nie udalo sie otworzyc pliku";
+            exit(0);
+        }
+
+        plik<<tresc1<<endl;
+
+plik.close();
+}
+void Czytaj::dodaj()
+{
+
+    cout<<"Podaj tresc: ";
+    cin>> tresc1;
+
+   fstream plik;
+        plik.open("tekst.txt", ios::out | ios::app);
+
+        if(plik.good()==false)
+        {
+            cout<<"Nie udalo sie otworzyc pliku";
+            exit(0);
+        }
+
+        plik<<tresc1<<endl;
+
+plik.close();
+}
+
+
+
+
 
 
 void Czytaj::show()
